@@ -124,6 +124,6 @@
     margin-top: 10px; /* Add a top margin to avoid content overlay */
   }
 
-  html, body, {
+  html, body {
     max-width: 100%;
 }
