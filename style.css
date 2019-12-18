@@ -125,8 +125,9 @@
     margin-top: 10px; /* Add a top margin to avoid content overlay */
   }
 
-  html, body {
+  html, body, a {
     max-width: 100%;
+    color: white;
 }
 
 .socialstuff {
