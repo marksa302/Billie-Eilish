@@ -35,7 +35,8 @@
     padding-left: 50px;
     font-size: 20;
     font-family: 'roboto', sans-serif;
-    text-align: center;
+    text-align: justify;
+    word-spacing:-3px;
     line-height: 200%;
 }
 
@@ -61,7 +62,8 @@
     padding-left: 50px;
     font-size: 20;
     font-family: 'roboto', sans-serif;
-    text-align: center;
+    text-align: justify;
+    word-spacing:-3px;
     line-height: 200%;
 }
 
