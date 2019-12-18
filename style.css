@@ -93,6 +93,7 @@
 
   /* The navigation bar */
 .navbar {
+    z-index: 9999;
     overflow: hidden;
     background-color: black;
     position: fixed; /* Set the navbar to fixed position */
