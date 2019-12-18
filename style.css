@@ -130,9 +130,8 @@
     color: white;
 }
 
-.socialstuff {
-    display: flex;
-    padding-left: 250px;
+.sociallinks {
+    padding-top: 10px;
 }
 
 .row {
