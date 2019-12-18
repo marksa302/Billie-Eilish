@@ -134,6 +134,17 @@
     padding-top: 10px;
 }
 
+
+
+.footer {
+    height: 10px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color:#ffffff;
+    font-size: 10;
+}
 .row {
     display: flex;
 }
