@@ -127,3 +127,15 @@
   html, body {
     max-width: 100%;
 }
+
+.socialstuff {
+    display: flex;
+    padding-left: 250px;
+}
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+  }
