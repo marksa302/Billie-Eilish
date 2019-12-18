@@ -15,6 +15,7 @@
 .flex-center {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 * {box-sizing:border-box}
@@ -24,3 +25,102 @@
     flex-direction: row;
   }
 
+.h2 {
+    color: white;
+    padding-left: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.div1 {
+    position: absolute;
+    color: white;
+    padding-right: 60%;
+    padding-left: 50px;
+    font-size: 20;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    line-height: 200%;
+}
+
+.pilt {
+    padding-left: 1000px;
+    padding-top: 50px;
+    size: 150%;
+}
+
+.music {
+    padding-left: 20%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.paragraph {
+    position: relative;
+    color: white;
+    padding-right: 60%;
+    padding-left: 50px;
+    font-size: 20;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    line-height: 200%;
+}
+
+.video {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.video .left {
+    float: left;
+    width: 40%;
+}
+
+.video .right {
+    float: right;
+    width: 30%;
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 315px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    padding-bottom: 50px;
+    top: 0;
+  }
+
+  /* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 10px; /* Add a top margin to avoid content overlay */
+  }
