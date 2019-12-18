@@ -127,12 +127,12 @@
 
   html, body {
     max-width: 100%;
-    }
-.twitter-timeline {
+}
+
+.socialstuff {
     display: flex;
-    justify-content: center;
-    color: white;
-    position: center;
+    padding-left: 250px;
+}
 
     }
 
@@ -145,3 +145,9 @@
     color:#ffffff;
     font-size: 10;
 }
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+  }
