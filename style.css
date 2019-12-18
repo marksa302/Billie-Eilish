@@ -31,7 +31,6 @@
 .div1 {
     position: relative;
     color: white;
-    padding-right: 60%;
     padding-left: 50px;
     font-size: 20;
     font-family: 'roboto', sans-serif;
@@ -41,10 +40,11 @@
 }
 
 .pilt {
-    position: absolute;
-    padding-left: 1000px;
-    padding-top: 50px;
-    size: 150%;
+    position: relative;
+    size: 100%;
+    height: auto;
+    width: 100%;
+    padding-left: 40px;
 }
 
 .music {
@@ -58,7 +58,6 @@
 .paragraph {
     position: relative;
     color: white;
-    padding-right: 60%;
     padding-left: 50px;
     font-size: 20;
     font-family: 'roboto', sans-serif;
@@ -134,7 +133,12 @@
     display: flex;
     padding-left: 250px;
 }
+.flex-container {
+    display: flex;
+    max-width: 600px;
+    padding-left: 20px;
 
+  }
 
 
 .footer {
