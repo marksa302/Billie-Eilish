@@ -127,11 +127,20 @@
 
   html, body {
     max-width: 100%;
-    }
-.twitter-timeline {
-    display: flex;
-    justify-content: center;
-    color: white;
-    position: center;
+}
 
+.socialstuff {
+    display: flex;
+    padding-left: 250px;
+}
+
+<<<<<<< HEAD
     }
+=======
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+  }
+>>>>>>> ed3314e02e995d4a3710e08c423b439b19376b58
